@@ -46,7 +46,6 @@ class Premailer
   # source: http://stackoverflow.com/questions/2812781/how-to-convert-webpage-apostrophe-8217-to-ascii-39-in-ruby-1-
   HTML_ENTITIES = {
     "1.8" => {
-      "\342\200\231" => "'",
       "\342\200\246" => "...",
       "\342\200\176" => "'",
       "\342\200\177" => "'",
